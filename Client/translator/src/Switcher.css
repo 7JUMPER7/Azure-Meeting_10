@@ -1,12 +1,7 @@
-/* #switcher:hover {
-    animation: rotate 1s 1;
-} */
+#switcher {
+    transition: .5s cubic-bezier(.5, 0, 0, 1);
+}
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(180deg)
-    }
+.rotated {
+    transform: rotate(180deg);
 }
